@@ -20,6 +20,6 @@ function printInSquares(container, numeri) {
 //Nascondi numeri PC
 function hidePC(divsPC) {
     for (let i = 0; i < divsPC.length; i++) {
-        console.log(divsPC[i].innerText);        
+        divsPC[i].innerText = "";
     };
 };
