@@ -1,4 +1,7 @@
 // Creazione variabili
-const container = document.getElementById("container");
+const pc = document.getElementById("pc-div");
+let numeriPC = [];
 
-let numeriPC = numeri5();
+//Stampa di 5 numeri con timer
+numeriPC = numeri5();
+printInSquares(pc, numeriPC);

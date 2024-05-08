@@ -12,12 +12,21 @@ HTML, header, main, footer {
 }
 
 /* Stili generali */
-#container {
+#pc-div {
     width: 60%;
     height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
     background-color: black;
     text-align: center;
-    padding: 2rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+}
+.square {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    border: 1px solid gray;
 }

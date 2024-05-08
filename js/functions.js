@@ -6,3 +6,13 @@ function numeri5() {
     };
     return(numeri);
 };
+
+//Stampa in container dato
+function printInSquares(container, numeri) {
+    for (let i = 0; i < numeri.length; i++) {
+        let newContent = document.createElement("div");
+        newContent.classList.add("square");
+        newContent.innerText = numeri[i];
+        container.append(newContent);
+    }
+}
