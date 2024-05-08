@@ -12,7 +12,7 @@ HTML, header, main, footer {
 }
 
 /* Stili generali */
-#pc-div {
+#pc-div, #user-div {
     width: 60%;
     height: 100%;
     margin: 0 auto;

@@ -17,9 +17,18 @@ function printInSquares(container, numeri) {
     };
 };
 
-//Nascondi numeri PC
-function hidePC(divsPC) {
+//Nascondi numeri PC e chiedi numeri
+function hideAndAsk(divsPC, user, userNum) {
     for (let i = 0; i < divsPC.length; i++) {
         divsPC[i].innerText = "";
     };
+    setTimeout(chiediStampaNumeri, 1, user, userNum);
+};
+
+//Chiedi 5 numeri all'utente e stampali
+function chiediStampaNumeri(user, userNum) {
+    for (let i = 0; i < 5; i++) {
+        userNum[i] = prompt(`Indovina il numero in posizione ${i}`)
+    };
+    console.log(userNum);
 };
