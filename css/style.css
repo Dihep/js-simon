@@ -6,7 +6,18 @@
 }
 
 /* Dark-mode */
-header, main, footer {
+HTML, header, main, footer {
     background-color: black;
     color: white;
+}
+
+/* Stili generali */
+#container {
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
 }
