@@ -10,4 +10,4 @@ printInSquares(pc, numeriPC);
 
 //Timer
 const divsPC = document.getElementsByClassName("pcNum");
-setTimeout(hideAndAsk, 3000, divsPC, user, numeriUser);
+setTimeout(hideAndAsk, 3000, divsPC, user, numeriUser, numeriPC);
