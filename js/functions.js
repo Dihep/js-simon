@@ -11,8 +11,15 @@ function numeri5() {
 function printInSquares(container, numeri) {
     for (let i = 0; i < numeri.length; i++) {
         let newContent = document.createElement("div");
-        newContent.classList.add("square");
+        newContent.classList.add("square", "pcNum");
         newContent.innerText = numeri[i];
         container.append(newContent);
-    }
-}
+    };
+};
+
+//Nascondi numeri PC
+function hidePC(divsPC) {
+    for (let i = 0; i < divsPC.length; i++) {
+        console.log(divsPC[i].innerText);        
+    };
+};
